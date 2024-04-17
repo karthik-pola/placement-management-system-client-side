@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+}
+
+
+@media (min-width <= 400px){
+    .login-btn{
+        min-width: 300px;
+    }
+}
+
+@media (min-width > 400px){
+    .login-btn{
+        min-width: 400px;
+    }
+}
+
+
+.email-label{
+    text-align: left;  
+}
+
